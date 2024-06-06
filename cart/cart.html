@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script_cart.js" defer></script>
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    <div id="cart">
+        <h2>Cart</h2>
+        <div id="cart-items"></div>
+        <div id="total">Total: $0.00</div>
+        <button id="checkout">Checkout</button>
+    </div>
+    <div id="products">
+        <h2>Available Films</h2>
+        <div class="product" data-id="1" data-name="Film 1" data-price="9.99">
+            <img src="film1.jpg" alt="Film 1">
+            <p>Film 1 - $9.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="2" data-name="Film 2" data-price="12.99">
+            <img src="film2.jpg" alt="Film 2">
+            <p>Film 2 - $12.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <!-- Add more films here -->
+    </div>
+</body>
+</html>

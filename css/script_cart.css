@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#cart, #products {
+    float: left;
+    margin: 0 20px;
+}
+
+#cart {
+    width: 300px;
+}
+
+#cart-items {
+    margin-bottom: 10px;
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 100px;
+    height: 150px;
+}
+
+#total {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+}
